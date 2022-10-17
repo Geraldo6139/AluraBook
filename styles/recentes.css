@@ -1,0 +1,54 @@
+.recentes{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.recentes__titulo{
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.recentes__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.recentes__item{
+    margin: 2em 0.5em;
+    line-height: 2em;
+}
+
+.recentes__link{
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .recentes__titulo{
+        font-size: 24px;
+    }
+
+    .recentes__link{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .recentes{
+        padding: 3em 25vw;
+    }
+    .recentes__titulo{
+        font-size: 32px;
+    }
+}
