@@ -100,6 +100,7 @@
 
     .opcoes-botao:checked ~ .opcoes__rotulo > .opcao__item{
         background: var(--azul-degrade);
+        color: var(--branco);
     }
 
     .opcao__item{
